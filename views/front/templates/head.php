@@ -4,7 +4,12 @@
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
     <title>admin</title>
-  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/style.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/head.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/foot.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/registro.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/login.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/contacto.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/index.css"/>
 </head>
 <body>
   <header>
@@ -66,10 +71,6 @@
 <a href="#">Link 3</a>
 </div>
 </div>
-
-
-
-
 
 <a href="javascript:void(0);" style="font-size:20px; " class="icon" onclick="myFunction()">&#9776;</a>
 </div>

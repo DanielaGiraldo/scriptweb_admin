@@ -1,0 +1,82 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/*----------------HEAD----------------*/
+body{font-family: arial;
+background-image: url('http://localhost/adminscript/public/images/fondo2.jpeg');
+}
+
+
+/*-----formularios----*/
+
+.formularios{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.titulo1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.titulo2{
+    background:#10A3D6  ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+
+.input-for, .select-for{
+    margin-bottom: 35px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:1px solid gray;
+}
+
+.btn-login{
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-login:active{
+    transform: scale(1.05); 
+}
+
+
+.p_recordar{
+    color: #000;
+    font-size: 15px;
+}
+.recordar{
+margin: 10px 10px 0 0;
+color: #FFF;
+}
+
+
+

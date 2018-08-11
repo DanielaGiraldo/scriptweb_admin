@@ -4,70 +4,101 @@
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
     <title>admin</title>
-  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/style.css"/>
+  <link rel="StyleSheet" type="text/css" href="http://localhost/adminscript/public/css/index_admin.css"/>
 </head>
 <body>
   <header>
     <div class="topnav" id="myTopnav">
-<a href="#home" class="inicio">INICIO</a>
+<div class="dropdown proyectos">
+<button class="dropbtn">INICIO
+<i class="fa fa-caret-down"></i>
+</button>
+</div>
+
+
 <div class="dropdown ideas">
 
-<button class="dropbtn">GENERAR IDEAS 
+<button class="dropbtn">CREAR 
 <i class="fa fa-caret-down"></i>
 </button>
 
 <div class="dropdown-content">
-<a href="#">Educación</a>
-<a href="#">Tecnología</a>
-<a href="#">Ciencia</a>
-<a href="#">Economía</a>
-<a href="#">Política</a>
-<a href="#">Cultura</a>
-<a href="#">Salud y derortes</a>
+<a href="#">Ideas</a>
+<a href="#">Proyectos</a>
+<a href="#">Foros</a>
+<a href="#">Subdominio</a>
 </div>
 </div>
 
 <div class="dropdown proyectos">
-<button class="dropbtn">PROYECTOS 
+<button class="dropbtn">USUARIO
 <i class="fa fa-caret-down"></i>
 </button>
 
 <div class="dropdown-content">
-<a href="#">Lideres</a>
-<a href="#">Equipos de trabajo</a>
-<a href="#">Metas</a>
-<a href="#">Investigaciones</a>
+<a href="#">Tipo documento</a>
+<a href="#">Tipo usuario</a>
+
 </div>
 </div> 
 
 <div class="dropdown desarrollo">
 
-<button class="dropbtn">FASES
+<button class="dropbtn">PROYECTO
 <i class="fa fa-caret-down"></i>
 </button>
 
 <div class="dropdown-content">
-<a href="#">Fase de analisis</a>
-<a href="#">Fase de ejecución</a>
-<a href="#">Fase de evaluación</a>
+<a href="#">Fases del proyecto</a>
+<a href="#">Estado del proyecto</a>
 </div>
 </div>
 
 <div class="dropdown clases">
-<button class="dropbtn">CLASES
+<button class="dropbtn">CATEGORIAS
 <i class="fa fa-caret-down"></i>
 </button>
 
 <div class="dropdown-content">
-<a href="#">Programación</a>
-<a href="#">Link 1</a>
-<a href="#">Link 2</a>
-<a href="#">Link 3</a>
+<a href="#">Categorias proyectos</a>
+<a href="#">Categorias de imagenes</a>
+<a href="#">Categorias de foros</a>
+<a href="#">categorias de clases</a>
 </div>
 </div>
 
+<div class="dropdown clases">
+<button class="dropbtn">LOCACION
+<i class="fa fa-caret-down"></i>
+</button>
+
+<div class="dropdown-content">
+<a href="#">Pais</a>
+<a href="#">Departamento</a>
+<a href="#">Ciudad</a>
+<a href="#">Corregimientos</a>
+<a href="#">Comunas</a>
+<a href="#">Veredas</a>
+<a href="#">Barrios</a>
+</div>
+</div>
+
+<div class="dropdown clases">
+<button class="dropbtn">CONOCIMIENTO
+<i class="fa fa-caret-down"></i>
+</button>
+
+<div class="dropdown-content">
+<a href="#">Area de formacion</a>
+<a href="#">Area de conocimiento</a>
+<a href="#">Clases</a>
+<a href="#">Definciones</a>
+<a href="#">Terminos</a>
+<a href="#">Codigo postal</a>
+</div>
+</div>
 <div class="dropdown proyectos">
-<button class="dropbtn">FORO
+<button class="dropbtn">CERRAR
 <i class="fa fa-caret-down"></i>
 </button>
 </div>

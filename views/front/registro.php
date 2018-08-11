@@ -7,7 +7,9 @@ include ('templates/head.php')
 
 <h2 class="titulo2"> Crea una cuenta</h2>
 <div class="contenedor-inputs">
-  
+  <fieldset class="datos">
+    <br>
+     <legend>Datos personales:</legend>
   <input type="text" name="nombre" placeholder="Nombre completo" class="input-50 input-for" required>
   
   <select name="genero" class="input-50 select-for" required>
@@ -17,47 +19,19 @@ include ('templates/head.php')
   </select>
 
   <select name="tipo de documento" class="input-50 select-for" required>
-  <option value="tipo" selected>tipo de documento</option>
+  <option value="tipo" selected>Tipo de documento</option>
   <option value="">CC</option>
   <option value="">TI</option>
   </select>
 
   <input type="text" name="documento" placeholder="Numero de documento" class="input-50 input-for" required>
 
-  <select class="input-50 select-for" required>
-  <option value="dia" selected>Dia</option>
+  <input type="text" name="direccion" placeholder="Dia/mes/año" class="input-100 input-for" required>
+ </fieldset>
 
-  <script>
-  var i;
-  for(i = 1; i<=31;i++){
-    document.write("<option>" + i + "</option>")
-  }
-  </script>
-  </select>
-
-  <select class="input-50 select-for" required>
-  <option value="mes" selected>Mes</option>
-
-  <script>
-  var i;
-  var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-  for(i = 0; i<12;i++){
-    document.write("<option>" + meses[i] + "</option>")
-  }
-  </script>
-  </select>
-
-  <select class="input-50 select-for" required>
-  <option value="anio" selected>Año</option>
-
-  <script>
-  var i;
-  for(i = 2000; i>=1980;i--){
-    document.write("<option>" + i + "</option>")
-  }
-  </script>
-  </select>
-
+ <fieldset class="academico">
+  <br>
+  <legend>Datos academicos:</legend>
   <select name="tipo usuario" class="input-50 select-for" required>
   <option value="usuario" selected>Tipo de usuario</option>
   <option value="">Aprendiz</option>
@@ -73,12 +47,16 @@ include ('templates/head.php')
   <option value="">....</option>
   </select>
 
-  <select name="area conocimiento" class="input-50 select-for" required>
+  <select name="area conocimiento" class="input-100 select-for" required>
   <option value="conocimiento" selected>Area de conocimiento</option>
   <option value="">Diseño</option>
   <option value="">....</option>
   </select>
- 
+</fieldset>
+
+  <fieldset class="ubicacion">
+    <br>
+    <legend>Ubicacion Usuario:</legend>
   <select name="pais" class="input-50 select-for" required>
   <option value="pais" selected>Pais</option>
   <option value="">Colombia</option>
@@ -120,14 +98,19 @@ include ('templates/head.php')
   <option value="">Planadas</option>
   <option value="">....</option>
   </select>
+  </fieldset>
 
+<fieldset class="contacto">
+  <br>
+  <legend>Contacto Usuario:</legend>
 <input type="text" name="direccion" placeholder="Direccion" class="input-50 input-for" required>
 
 <input type="text" name="celular" placeholder="Celular" class="input-50 input-for" required>
 
 <input type="text" name="telefono" placeholder="Telefono" class="input-50 input-for" required>
+</fieldset>
 
-<input type="email" name="correo" placeholder="Correo electronico" class="input-100 input-for" required>
+<input type="email" name="correo" placeholder="Correo electronico" class="input-100 input-for email" required>
 
 <input type="password" name="password" placeholder="Contraseña" class="input-100 input-for" required>
 <input type="password" name="password" placeholder="Confirmar Contraseña" class="input-100 input-for" required>
@@ -136,6 +119,7 @@ include ('templates/head.php')
 <p class="link">¿Ya tienes una cuenta? <a href="#"> Ingresa aqui</a></p>
 
 </div>
+
 </form>
 
 
